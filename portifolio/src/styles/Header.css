@@ -1,0 +1,129 @@
+nav{
+    width: 100%;
+    border: 1px black solid;
+    display: flex;
+    background-color: #023E8A;
+}
+
+Nav div{
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.Nav-Logo{
+    width: 5%;
+}
+
+.Nav-Logo img{
+    width: 6vw;
+    height: 5vw;
+    margin-left: 3vw;
+}
+
+.Nav-SocialMedia{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Nav-SocialMedia img{
+    margin-right: 2vw;
+    width: 3vw;
+    height: 3vw;
+}
+
+.Nav-Links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav-SocialMedia a, .Nav-Logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav-Links{
+    width: 75%;
+    display: flex;
+    color: white;
+    column-gap: 6.5vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+    text-shadow: 5px 3px 4px black;
+    font-weight: 600;
+    user-select: none;
+}
+
+.Nav-Links p{
+    cursor: pointer;
+}
+
+.Nav-Links p:active{
+    text-shadow: 2px 2px 2px black;
+    transform: translateY(2px);
+}
+
+.Nav-PhoneButton{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .Nav-Links{
+        display: none;
+    }
+    .Nav-Logo, .Nav-SocialMedia, .Nav-PhoneButton{
+        height: 6vh;
+        width: 33.33%;
+    }
+    .Nav-Logo{
+        display: flex;
+        justify-content: start;
+        align-items: center
+    }
+    .Nav-Logo a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Nav-Logo img{
+        cursor: pointer;
+        width: 35px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .Nav-SocialMedia{
+        display: flex;
+        justify-content: space-around;
+        align-items: center
+    }
+    .Nav-SocialMedia img{
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+    }
+    .Nav-SocialMedia a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Nav-PhoneButton img{
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+    }
+    .Nav-PhoneButton a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Nav-PhoneButton{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+}

@@ -1,0 +1,26 @@
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vw 0;
+}
+
+@media (max-width: 600px) {
+    footer{
+        background-color: black;
+        bottom: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 5vh;
+        font-size: 2vw;
+    }
+    footer p{
+        border: 1px white solid;
+    }
+}
+

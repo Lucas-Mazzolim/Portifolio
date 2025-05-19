@@ -1,0 +1,62 @@
+
+@media (max-width: 600px) {
+    .Presentation{
+        display: flex;
+        align-items: center;
+        height: 35vh;
+    }
+
+    .Presentation-Text{
+        display: flex;
+        flex-direction: column;
+    }
+    .Presentation-Text-buttons{
+        margin-top: -1vw;
+    }
+    .Presentation-Text h1, .Presentation-Text p, .Presentation-Text button{
+        margin-left: 7vw;   
+        width: fit-content;
+    }
+
+    .Presentation-Text-buttons{
+        position: relative;
+        display: flex;
+        top: 1vw;
+        margin-left: 1vw;
+    }
+
+    .Presentation-Text-buttons button{
+        background-color: white;
+        border: 1px black solid;
+        border-radius: 2vw;
+        font-size: 3vw;
+        width: 22vw;
+        padding: 0.75vw 0;
+        box-shadow: 1px 1px 2px black;
+    }
+
+    .Presentation-Text h1{
+        position: relative;
+        top: -3vw;
+        font-weight: 400;
+        font-size: 10vw;
+    }
+
+    .Presentation-Text p{
+        position: relative;
+        margin-top: -6vw;
+        top: -4vw;
+        left: 0.5vw;
+        font-size: 3.5vw;
+        width: 57vw;
+        font-style: italic;
+        font-weight: 300;
+    }    
+
+    .Presentation-ProfileContainer img{
+        position: relative;
+        top: 15vw;
+        right: 15vw;
+        z-index: -1;
+    }
+}

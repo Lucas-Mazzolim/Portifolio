@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Montserrat';
+}
+
+.App{
+ display: flex;  
+ flex-direction: column;
+ min-height: 100vh;
+ overflow: hidden;
+}
+
+main{
+  border: 1px black solid;
+  flex: 1;
+}
