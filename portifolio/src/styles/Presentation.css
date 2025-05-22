@@ -1,62 +1,136 @@
+.Presentation{
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.Presentation-Text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.Presentation img{
+        z-index: -1;
+        left: 50vw;
+        height: 80vw;
+}
+
+.Presentation-Text p, .Presentation-Text h1, .Presentation-Text-buttons button{
+        position: relative;
+        left: 8vw;
+        user-select: none;
+}
+
+.Presentation-Text-buttons{
+    display: flex;
+    position: relative;
+    top: 4vw;
+    column-gap: 10vw;
+}
+
+.Presentation-Text-buttons button{
+    cursor: pointer;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 2vw;
+    font-size: 1.8vw;
+    width: 15vw;
+    padding: 0.75vw;
+    box-shadow: 2px 2px 5px black;
+}
+
+.Presentation-Text-buttons button:active{
+        background-color: rgb(197, 195, 195);
+        transform: translateY(0.25vw);
+}
+
+.Presentation-Text p{
+    left: 8.5vw;
+    font-size: 2vw;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.Presentation-Text h1{
+    font-size: 8vw;
+    font-weight: 400;
+    margin: 0;
+}
+
+.Presentation-Text{
+    border: 1px black solid;
+    width: 100vw;
+}
+
+.Presentation img{
+    position: absolute;
+    right: 0;
+    justify-self: normal;
+    align-self: normal;
+}
 
 @media (max-width: 600px) {
-    .Presentation{
-        display: flex;
-        align-items: center;
-        height: 35vh;
+    .Presentation, .Presentation-Text{
+        height: 40vh;
+    }
+
+    .Presentation-Text h1{
+        margin: 0;
+        font-weight: 400;
+        font-size: 10vw;
+        white-space: pre
     }
 
     .Presentation-Text{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
-    .Presentation-Text-buttons{
-        margin-top: -1vw;
+
+    .Presentation-Text p{
+        position: relative;
+        font-weight: 300;
+        font-size: 3.5vw;
+        margin-top: 0;
+        font-style: italic;
     }
-    .Presentation-Text h1, .Presentation-Text p, .Presentation-Text button{
-        margin-left: 7vw;   
-        width: fit-content;
+
+    .Presentation-Text p, .Presentation-Text h1, .Presentation-Text-buttons button{
+        position: relative;
+        left: 7vw;
+        user-select: none;
     }
 
     .Presentation-Text-buttons{
-        position: relative;
         display: flex;
-        top: 1vw;
-        margin-left: 1vw;
+        position: relative;
+        top: 4vw;
+        column-gap: 10vw;
     }
 
     .Presentation-Text-buttons button{
         background-color: white;
         border: 1px black solid;
         border-radius: 2vw;
-        font-size: 3vw;
-        width: 22vw;
-        padding: 0.75vw 0;
-        box-shadow: 1px 1px 2px black;
+        font-size: 2.5vw;
+        width: 18vw;
+        padding: 1.2vw;
+        box-shadow: 1px 1px 1px black;
+        user-select: none;
     }
 
-    .Presentation-Text h1{
-        position: relative;
-        top: -3vw;
-        font-weight: 400;
-        font-size: 10vw;
+    .Presentation-Text-buttons button:active{
+        background-color: gray;
+        transform: translateY(1px);
     }
-
-    .Presentation-Text p{
-        position: relative;
-        margin-top: -6vw;
-        top: -4vw;
-        left: 0.5vw;
-        font-size: 3.5vw;
-        width: 57vw;
-        font-style: italic;
-        font-weight: 300;
-    }    
-
-    .Presentation-ProfileContainer img{
-        position: relative;
-        top: 15vw;
-        right: 15vw;
+    
+    .Presentation img{
         z-index: -1;
+        left: 25vh;
+        height: 50vh;
     }
+
 }

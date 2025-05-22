@@ -5,7 +5,8 @@ export default function Presentation(){
     return(
         <div className = 'Presentation'>
             <div className = 'Presentation-Text'>
-                <h1>LUCAS
+                <h1 style={{whiteSpace: 'pre'}}>
+                    LUCAS <br/>
                     MAZZOLIM
                 </h1>
                 <p>Fair price, unfair advantage</p>
@@ -14,9 +15,7 @@ export default function Presentation(){
                     <button>Projects</button>
                 </div>
             </div>
-            <div className = 'Presentation-ProfileContainer'>
                 <img src = {ProfilePhoto}/>
-            </div>
         </div>
     )
 }

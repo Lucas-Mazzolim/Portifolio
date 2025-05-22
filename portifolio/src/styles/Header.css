@@ -28,6 +28,8 @@ Nav div{
 }
 
 .Nav-SocialMedia img{
+    user-select: none;
+    cursor: pointer;
     margin-right: 2vw;
     width: 3vw;
     height: 3vw;
@@ -37,6 +39,7 @@ Nav div{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .Nav-SocialMedia a, .Nav-Logo a{
