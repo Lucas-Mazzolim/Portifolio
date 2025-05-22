@@ -1,0 +1,31 @@
+.Abilities{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 1vw;
+}
+
+.Abilities-Container{
+    width: 85vw;
+
+}
+
+.Abilities-Container-Abilities{
+    width: fit-content;
+    border: 1px black solid;
+    display: flex;
+    column-gap: 5vw;
+}
+
+.Abilities h2{
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+@media (max-width: 600px){
+    .Abilities h2{
+        margin-bottom: 4vw;
+        margin-top: 1vw;
+        font-size: 4vw;
+    }
+}
