@@ -5,9 +5,9 @@ import './styles/index.css'
 import Presentation from './Main Components/Presentation'
 import About from './Main Components/About'
 import Abilities from './Main Components/Abilities'
+import Contact from './Main Components/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className = 'App'>
@@ -16,6 +16,7 @@ function App() {
         <Presentation/>
         <About/>
         <Abilities/>
+        <Contact/>
       </main>
       <Footer/>
     </div>

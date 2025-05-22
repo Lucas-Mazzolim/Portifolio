@@ -1,0 +1,137 @@
+.Contact{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Contact-Title{
+    margin-top: 5vw;
+    margin-left: 2vw;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.Contact-Forms{
+    margin-left: 2vw;
+    box-shadow: 1px 1px 3px black;
+    border: 1px black solid;
+    width: calc(100% - 2vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    background-color: #f5f5f5;
+}
+
+.Contact-Forms-Email, .Contact-Forms-Name{
+    border: 1px black solid;
+    height: 5.5vh;
+    width: 90%;
+    text-indent: 1vw;
+}
+
+.Contact-Forms-Email::placeholder, .Contact-Forms-Name::placeholder{
+    color: black;
+    margin-left: 1vw;
+}
+
+.Contact-Forms p{
+    margin: 2vh 0;
+    font-weight: 600;
+    width: 90%;
+}
+
+.Contact-Forms button{
+    background-color: none;
+    border: 1px black solid;
+    margin-top: 2.5vh;
+    align-self: flex-end;
+    padding: 0.5vh 1.5vh;
+    font-weight: 600;
+    margin-right: 4vw;
+}
+
+.Contact-Forms-Message{
+    width: 90%;
+    max-height: 15vw;
+    min-height: 15vw;
+    min-width: 90%;
+    max-width: 90%;
+    text-indent: 1vw;
+}
+
+.Contact-Forms-Message::placeholder{
+    color: black;
+    margin-left: 1vw;
+}
+
+@media (max-width: 600px) {
+.Contact{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Contact-Title{
+    margin-top: 5vw;
+    margin-left: 2vw;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.Contact-Forms{
+    margin-left: 2vw;
+    box-shadow: 1px 1px 3px black;
+    border: 1px black solid;
+    width: calc(100% - 2vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+    background-color: #f5f5f5;
+}
+
+.Contact-Forms-Email, .Contact-Forms-Name{
+    border: 1px black solid;
+    height: 4vh;
+    width: 90%;
+    text-indent: 1vw;
+}
+
+.Contact-Forms-Email::placeholder, .Contact-Forms-Name::placeholder{
+    color: black;
+    margin-left: 1vw;
+}
+
+.Contact-Forms p{
+    margin: 2vh 0;
+    font-weight: 600;
+    width: 90%;
+}
+
+.Contact-Forms button{
+    background-color: none;
+    border: 1px black solid;
+    margin-top: 2.5vh;
+    align-self: flex-end;
+    padding: 0.5vh 1.5vh;
+    font-weight: 600;
+    margin-right: 4vw;
+}
+
+.Contact-Forms-Message{
+    height: 20vh;
+    width: 90%;
+    max-height: 20vh;
+    min-height: 20vh;
+    min-width: 90%;
+    max-width: 90%;
+    text-indent: 1vw;
+}
+
+.Contact-Forms-Message::placeholder{
+    color: black;
+    margin-left: 1vw;
+}
+
+}

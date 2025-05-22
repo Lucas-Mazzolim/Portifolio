@@ -12,7 +12,6 @@
 
 .Abilities-Container-Abilities{
     width: fit-content;
-    border: 1px black solid;
     display: flex;
     column-gap: 5vw;
 }
