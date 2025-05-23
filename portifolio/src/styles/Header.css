@@ -5,6 +5,11 @@ nav{
     background-color: #023E8A;
 }
 
+nav a{
+    text-decoration: none;
+    color: unset;
+}
+
 Nav div{
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
