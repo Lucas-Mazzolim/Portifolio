@@ -12,12 +12,7 @@ footer{
 
 @media (max-width: 600px) {
     footer{
-        background-color: black;
         bottom: 0;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         min-height: 5vh;
         font-size: 2vw;
     }

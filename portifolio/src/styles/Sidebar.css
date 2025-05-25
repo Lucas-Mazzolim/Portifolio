@@ -1,0 +1,47 @@
+.Sidebar{
+    position: absolute;
+    width: 100vw;
+    height: fit-content;
+    display: none;
+}
+
+@media (max-width: 600px){
+    .Sidebar{
+        display: block;
+        margin-top: 6.6vh;
+        z-index: 2;
+    }
+    .Sidebar div:not(:last-child){
+        height: 19vw;
+        font-size: 4.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #0077B6;
+        border: 1px black solid;
+        font-weight: 700;
+        box-shadow: 1px 1px 3px black;
+        user-select: none;
+    }
+    .SideBar-LastDiv{
+        height: 19vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border: 1px black solid;
+        font-weight: 700;
+        background-color: #0077B6;
+        font-size: 3vw;
+        user-select: none;
+    }
+    .SideBar-LastDiv img{
+        width: 5.5vw;
+        margin-right: 2vw;
+    }
+    .Sidebar a{
+        color: unset;
+        text-decoration: none;
+    }
+}

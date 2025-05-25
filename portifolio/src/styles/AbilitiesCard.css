@@ -21,7 +21,6 @@
     }
 
     .AbilitiesCard-hability p{
-        /* margin: 1vw; */
         font-weight: 800;
         font-size: 2.5vw;
     }
@@ -44,28 +43,15 @@
 @media (max-width: 600px) {
     .AbilitiesCard{
         width: 50vw;
-        box-shadow: 1px 1px 3px black;
-        border: 2px black solid !important;
         border-radius: 5vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 2vw;
     }
 
     .AbilitiesCard-hability{
-        width: 80%;
         margin-top: 5vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;    
     }
 
     .AbilitiesCard-hability p{
         margin: 2vw;
-        font-weight: 800;
         font-size: 5vw;
     }
 
@@ -74,11 +60,6 @@
     }
 
     .AbilitiesCard-Description{
-        display: flex;
-        width: 80%;
-        align-content: center;
-        justify-content: center;
-        text-align: justify;
         font-size: 2vw;
         line-height: 4vw;
     }

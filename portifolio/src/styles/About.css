@@ -30,24 +30,15 @@
     line-height: 3vw;
 }
 
-.About-SecondParagraph{
-    /* margin-top: 0vw; */
-}
-
 @media (max-width: 600px){
     .About div{
         row-gap: 0px;
-    }
-    .About h2, .About p{
-        margin-left: 2vw;
     }
     .About h2{
         font-size: 4vw;
     }
     .About p{
-        width: 85vw;
         font-size: 3.25vw;
-        text-align: justify;
         line-height: 5vw;
     }
     .About-SecondParagraph{
